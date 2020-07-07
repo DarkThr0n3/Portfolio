@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for GH Pages",
+  "main": "index.js",
+  "scripts": {
+    "sasstest": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Nalin Kamboj",
+  "license": "ISC",
+  "dependencies": {
+    "node-gyp": "^4.0.0",
+    "node-sass": "^4.12.0"
+  }
+}
